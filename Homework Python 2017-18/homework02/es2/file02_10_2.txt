@@ -1,0 +1,18 @@
+     comp    7     
+ sub    4 
+    comp 2  
+sub      4
+   comp10 
+   sub      4     
+ comp     9   
+ sub   7     
+    comp 1      
+    sub   5   
+  comp     8      
+sub 4      
+    comp4 
+    comp     3  
+  sub   4  
+ comp   6    
+   sub  7    
+     comp     5      

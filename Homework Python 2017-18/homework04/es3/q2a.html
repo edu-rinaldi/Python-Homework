@@ -1,0 +1,1751 @@
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Recent questions and answers in Fondamenti di Programmazione - Q&amp;A di Informatica</title>
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <style>
+        #printer {
+            cursor: pointer;
+            float: right;
+            margin: 12px 12px 12px 0;
+        }
+    </style>
+    <link href="./qa-theme/SnowFlat/1/qa-styles.css?1.7.4" rel="stylesheet" />
+    <link href="./qa-theme/SnowFlat/qa-styles.css?1.7.4" rel="stylesheet" />
+    <link href="./qa-theme/SnowFlat/fonts/ubuntu.css?1.7.4" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <style>
+        @media (max-width: 979px) {
+            body.qa-template-user.fixed,
+            body[class*="qa-template-user-"].fixed {
+                padding-top: 118px !important;
+            }
+            body.qa-template-users.fixed {
+                padding-top: 95px !important;
+            }
+        }
+
+        @media (min-width: 980px) {
+            body.qa-template-users.fixed {
+                padding-top: 105px !important;
+            }
+        }
+    </style>
+    <style>
+        .notify-container {
+            left: 0;
+            right: 0;
+            top: 0;
+            padding: 0;
+            position: fixed;
+            width: 100%;
+            z-index: 10000;
+        }
+
+        .notify {
+            background-color: #F6DF30;
+            color: #444444;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            font-family: sans-serif;
+            font-size: 14px;
+            padding: 10px 0;
+            position: relative;
+        }
+
+        .notify-close {
+            color: #735005;
+            cursor: pointer;
+            font-size: 18px;
+            line-height: 18px;
+            padding: 0 3px;
+            position: absolute;
+            right: 8px;
+            text-decoration: none;
+            top: 8px;
+        }
+
+        .qa-faq-section-title {
+            font-size: 125%;
+            font-weight: bold;
+            margin: 5px 0 5px;
+            cursor: pointer;
+        }
+
+        .qa-faq-section-text {
+            display: none;
+            margin: 0 0 5px 5px;
+        }
+    </style>
+    <link href="./feed/qa/fondamenti-di-programmazione.rss" rel="alternate" title="Recent questions and answers in Fondamenti di Programmazione" type="application/rss+xml" />
+    <link href="./opensearch.xml" rel="search" title="Q&amp;A di Informatica" type="application/opensearchdescription+xml" />
+    <script>
+        var qa_root = '.\/';
+        var qa_request = 'fondamenti-di-programmazione';
+    </script>
+    <script src="./qa-content/jquery-1.11.3.min.js"></script>
+    <script src="./qa-content/qa-page.js?1.7.4"></script>
+    <script src="./qa-theme/SnowFlat/js/snow-core.js?1.7.4"></script>
+    <script type="text/javascript">
+        var bck_t = "";
+
+        function doCheck() {
+            if (bck_t.length == 0 || confirm('You are going to ' + bck_t + '. \n\nProceed?', 'Confirmation')) return true;
+            return false;
+        }
+    </script>
+    <link href="./qa-plugin/avatars/avatars.css" rel="stylesheet" />
+
+    <script>
+    </script>
+    <link href="./qa-plugin/badges/badges.css" rel="stylesheet" />
+    <script>
+        var course_root = "./qa-plugin/courses/course-ajax.php";
+        var course_code = "1-1512241643-c730b258ea4442c3e789062a4bb890b83c8b75c9";
+    </script>
+    <script src="./qa-plugin/courses/assets/courses.js"></script>
+    <link href="./qa-plugin/courses/assets/courses.css" rel="stylesheet" />
+    <link href="./qa-plugin/dashboard/assets/css/fontello.css" rel="stylesheet" />
+    <link href="./qa-plugin/dashboard/assets/css/dashboard-mini.css" rel="stylesheet" />
+    <link href="./qa-plugin/extra-points/extra-points.css" rel="stylesheet" />
+    <link href="./qa-plugin/homeworks/assets/css/notification.css" rel="stylesheet" />
+    <link href="./qa-plugin/homeworks/assets/css/fontello.css" rel="stylesheet" />
+    <link href="./qa-plugin/homeworks/assets/css/awards-widget.css" rel="stylesheet" />
+    <script src="./qa-plugin/homeworks/assets/js/notification.js"></script>
+    <script>
+        notices("http://q2a.di.uniroma1.it/notification", ".qa-nav-main-custom-23 &gt; a", "hw-notice")
+    </script>
+</head>
+
+<body class="qa-template-qa qa-category-1 qa-body-js-off">
+    <script>
+        var b = document.getElementsByTagName('body')[0];
+        b.className = b.className.replace('qa-body-js-off', 'qa-body-js-on');
+    </script>
+    <div class="notify-container">
+        <div class="badge-notify notify">Congratulations! You've earned a badge 'Nice Answer'  Check out <a href="http://q2a.di.uniroma1.it/user/andrea.sterbini?tab=badges">your profile</a>
+            <div class="notify-close" onclick="jQuery(this).parent().slideUp(&#x27;slow&#x27;)">x</div>
+        </div>
+    </div>
+    <div class="clearfix" id="qam-topbar">
+        <div class="qam-main-nav-wrapper clearfix">
+            <div class="sb-toggle-left qam-menu-toggle"><i class="icon-th-list"></i></div>
+            <div class="qam-account-items-wrapper">
+                <div class="qam-logged-in" id="qam-account-toggle">
+                    <span style="display:inline-block;"></span>
+
+                </div>
+                <div class="qam-account-items clearfix">
+                    <div class="qa-nav-user">
+                        <div class="qa-logged-in">
+                            <span class="qa-logged-in-pad">Hello </span><span class="qa-logged-in-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a> </span>
+                        </div>
+                        <div class="qam-logged-in-points">58,960</div>
+                        <ul class="qa-nav-user-list">
+                            <li class="qa-nav-user-item qa-nav-user-updates">
+                                <a class="qa-nav-user-link" href="./updates">My Updates</a>
+                            </li>
+                            <li class="qa-nav-user-item qa-nav-user-dashboard">
+                                <a class="qa-nav-user-link" href="dashboard">Dashboard</a>
+                            </li>
+                            <li class="qa-nav-user-item qa-nav-user-course">
+                                <i class="material-icons qa-nav-user-icon"></i>
+                                <select class="qa-nav-user-link" onchange="course_set_pref(this.options[this.selectedIndex].value);" title="Scegli quale corso visualizzare tra quelli che stai seguendo">
+																			<option value="2_architettura-degli-elaboratori">Architettura degli elaboratori</option>
+																			<option value="1_fondamenti-di-programmazione">Fondamenti di Programmazione</option>
+																		</select>
+                            </li>
+                            <li class="qa-nav-user-item qa-nav-user-logout">
+                                <a class="qa-nav-user-link" href="./logout">Logout</a>
+                            </li>
+                        </ul>
+                        <div class="qa-nav-user-clear">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="qa-logo">
+                <a class="qa-logo-link" href="./" title="Q&amp;A di Informatica"><img alt="Q&amp;A di Informatica" border="0" src=".//assets/dont-panic-600.png" width="600"/></a>
+            </div>
+            <div class="qa-nav-main">
+                <ul class="qa-nav-main-list">
+                    <li class="qa-nav-main-item qa-nav-main-activity">
+                        <a class="qa-nav-main-link" href="././activity/fondamenti-di-programmazione">All Activity</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-questions">
+                        <a class="qa-nav-main-link" href="././questions/fondamenti-di-programmazione">Questions</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-hot">
+                        <a class="qa-nav-main-link" href="./hot">Hot!</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-unanswered">
+                        <a class="qa-nav-main-link" href="././unanswered/fondamenti-di-programmazione">Unanswered</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-tag">
+                        <a class="qa-nav-main-link" href="././tags?course=fondamenti-di-programmazione">Tags</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-categories">
+                        <a class="qa-nav-main-link" href="./categories">Categories</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-user">
+                        <a class="qa-nav-main-link" href="././users?course=fondamenti-di-programmazione">Users</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-ask">
+                        <a class="qa-nav-main-link" href="./ask?cat=1">Ask a Question</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-admin">
+                        <a class="qa-nav-main-link" href="./admin">Admin</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-by-cat">
+                        <a class="qa-nav-main-link" href="./by-cat">by-cat</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-custom-31">
+                        <a class="qa-nav-main-link" href="./service?homework=3" target="_blank">Job</a>
+                    </li>
+                    <li class="qa-nav-main-item qa-nav-main-custom-19">
+                        <a class="qa-nav-main-link" href="./admin/approve">Approve</a>
+                    </li>
+                    <li class="qa-nav-main-item-opp qa-nav-main-custom-32">
+                        <a class="qa-nav-main-link" href="./dashboard">Dashboard</a>
+                    </li>
+                    <li class="qa-nav-main-item-opp qa-nav-main-custom-28">
+                        <a class="qa-nav-main-link" href=".//fondamenti-di-programmazione/avvisi" target="_blank">Avvisi</a>
+                    </li>
+                    <li class="qa-nav-main-item-opp qa-nav-main-custom-21">
+                        <a class="qa-nav-main-link" href="./faq" target="_blank">FAQ</a>
+                    </li>
+                    <li class="qa-nav-main-item-opp qa-nav-main-custom-23">
+                        <a class="qa-nav-main-link" href="./3287">Homework</a>
+                    </li>
+                </ul>
+                <div class="qa-nav-main-clear">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="qam-ask-search-box">
+        <div class="qam-ask-mobile"><a class="turquoise" href="./ask">Ask a Question</a></div>
+        <div class="qam-search-mobile turquoise" id="qam-search-mobile"></div>
+    </div>
+    <div class="qam-search turquoise the-top" id="the-top-search">
+        <div class="qa-search">
+            <form action="./search" method="get">
+
+                <input class="qa-search-field" name="q" type="text" value="" />
+                <input class="qa-search-button" type="submit" value="Search" />
+            </form>
+        </div>
+    </div>
+    <div class="qa-body-wrapper">
+
+        <div class="qa-main-wrapper">
+
+            <div class="qa-main">
+                <form action="./fondamenti-di-programmazione" method="post">
+                    <h1>
+                        <span class="qa-favoriting" id="favoriting">
+																	<input class="qa-unfavorite-button" name="favorite_C_1_0" onclick="return qa_favorite_click(this);" title="Remove Fondamenti di Programmazione from my favorites" type="submit" value=""/> 
+																</span>
+                        <a href="./feed/qa/fondamenti-di-programmazione.rss" title="Recent questions and answers in Fondamenti di Programmazione"><i class="icon-rss qam-title-rss"></i></a> Recent questions and answers in Fondamenti di Programmazione
+
+                    </h1>
+                    <input name="code" type="hidden" value="1-1512241643-09490bddc2dee9bcd2b776dc0e40224312579137" />
+                </form>
+                <div class="qa-part-q-list">
+                    <form action="./fondamenti-di-programmazione" method="post">
+                        <div class="qa-q-list">
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3799">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3799">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3799_1_q3799" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3799_-1_q3799" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Luca T.">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">34</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3799/controllo-ricorsione"><span title="Io ho l&#x27;es 2 che va in timeout al quinto test. Il controllo sulla ricorsione verrà effettuato comunque oppure no?">Controllo ricorsione</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3799/controllo-ricorsione?show=3837#a3837">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">33 minutes</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3824">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3824">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3824_1_q3824" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3824_-1_q3824" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Luca T., Powner">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+2</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">52</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3824/usciranno-dei-nuovi-grader-per-questo-homework-quando-domani"><span title="È prevista l&#x27;uscita di nuovi grader per verificare la correttezza dei nostri programmi prima di mercoledì? Se sì, possiamo sapere quando?">Usciranno dei nuovi grader per questo homework? Se sì, quando? (Domani)</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3824/usciranno-dei-nuovi-grader-per-questo-homework-quando-domani?show=3834#a3834">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">35 minutes</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es1">Es1</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3829">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3829">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3829_1_q3829" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3829_-1_q3829" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">0</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">18</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3829/grade-per-ricorsione"><span title="Sbaglio o i test sulla ritorsione non sono inseriti nella cartella homework che possiamo scaricare? vengono eseguiti soltanto dal prof? quindi facciamo affidamento alla schermata &quot;risultati&quot;?">grade per ricorsione</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3829/grade-per-ricorsione?show=3833#a3833">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">37 minutes</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/funzionamento-degli-homework">Funzionamento degli homework</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3806">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3806">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3806_1_q3806" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3806_-1_q3806" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ LeonardoEmili, Luca T.">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+2</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">53</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3806/test-sulla-ricorsione-che-fallisce-su-funzione-ricorsiva"><span title="Ciao ragazzi, ho gen_tree che ovviamente si genera ricorsivamente o l&#x27;intero program non mi funzionerebbe, eppure non passa il test sulla ricorsività. Il mio gen_tree richiama addirittura 2 funzioni ricorsive di utilità che sono poste a livello globale come la funzione di partenza. Per quanto riguarda funzioni annidate, non ne ho mai usate. Qualcuno ha avuto lo stesso problema?">Test sulla ricorsione che fallisce su funzione ricorsiva</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3806/test-sulla-ricorsione-che-fallisce-su-funzione-ricorsiva?show=3831#a3831">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">54 minutes</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3814">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3814">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3814_1_q3814" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3814_-1_q3814" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Alessio.Luc">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">46</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3814/dubbio-funzione-gen_tree"><span title="la funzione gen_tree deve generare tutto l&#x27;albero oppure deve aggiungere a lista_figli solamente le 3 possibili mosse?">dubbio funzione gen_tree</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3814/dubbio-funzione-gen_tree?show=3821#a3821">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">3 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/GiorgioAgosta">GiorgioAgosta</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">3,780</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item" id="q3784">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3784">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3784_1_q3784" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3784_-1_q3784" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Chaos, DanielPamfil, Domenicobrz, eduardo_rinaldi, ema-pe, f.cavallo, giorgio.belli, GiovanniQuadraroli, LeonardoEmili, Luca T., sittingbull17">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+11</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">132</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+
+                                        <a href="./3784/riesco-capire-come-procedere-funzione-strategia_vincente"><span title="Salve a tutti, sono circa 4 giorni che sto cercando di capire come approcciare il problema nella quarta funzione del secondo hw senza riuscirci. Ho provato a procedere dalle foglie, salendo fino alla radice, calcolando per ogni nodo l&#x27;esito. Questo metodo funziona purtroppo solo in alcuni casi. Ho provato a calcolare il ...  di aver capito la richiesta. Ho già letto l&#x27;altra domanda riguardante la quarta funzione ma sinceramente non ho capito bene. Grazie in anticipo a tutti.">HW 4.2 non riesco a capire come procedere con la funzione strategia_vincente</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3784/riesco-capire-come-procedere-funzione-strategia_vincente?show=3817#a3817">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">4 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/Domenicobrz">Domenicobrz</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">1,450</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework4?course=fondamenti-di-programmazione">homework4</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/tic-tac-toe?course=fondamenti-di-programmazione">tic-tac-toe</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/strategia_vincente?course=fondamenti-di-programmazione">strategia_vincente</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item" id="q3815">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3815">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3815_1_q3815" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3815_-1_q3815" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Luca T.">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-zero">
+																				<span class="qa-a-count-data">0</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">38</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+
+                                        <a href="./3815/hw4-2-memorizzare-esiti-per-aumentare-efficienza"><span title="Il mio programma perde una miriade di tempo nei test con le griglie vuote perché ricalcola più volte le stesse configurazioni a cui arrivo da antenati diversi (esempio: [&#x27;o&#x27;,&#x27;o&#x27;,&#x27;x&#x27;][&#x27;&#x27;,&#x27;&#x27;,&#x27;&#x27;][&#x27;&#x27;,&#x27;&#x27;,&#x27;&#x27;] può essere raggiunta in due modi diversi a seconda da quale &#x27;o&#x27; viene messa alla  ... qualche modo per evitare di fargli calcolare di nuovo esiti che ha già calcolato, ma non ho idea sul come implementare tale sistema di memorizzazione. Qualcuno può indirizzarmi alla risposta?">(HW4.2) Memorizzare esiti per aumentare efficienza</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<span class="qa-q-item-what">asked</span>
+                                    <span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">4 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/1803699">1803699</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">330</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework4?course=fondamenti-di-programmazione">homework4</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework?course=fondamenti-di-programmazione">homework</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/python?course=fondamenti-di-programmazione">python</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3802">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3802">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3802_1_q3802" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3802_-1_q3802" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">31</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3802/mossa-iniziale-hw-4-2"><span title="Scusate, a parità di mosse, inizia sempre la &#x27;o&#x27; giusto?">Mossa iniziale HW 4.2</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3802/mossa-iniziale-hw-4-2?show=3804#a3804">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">5 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/ema-pe">ema-pe</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">10,910</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3801">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3801">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3801_1_q3801" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3801_-1_q3801" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">24</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3801/gen_tree-griglia-griglia-gia-oggetto-della-classe-nodotris"><span title="come si puo leggere dal titolo volevo sapere se la griglia che viene data alla funzione gen_tree è gia un oggetto di nodotris o se dobbiamo trasformarlo noi">hw4.2 gen_tree(griglia), griglia è gia un oggetto della classe nodotris?(no)</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3801/gen_tree-griglia-griglia-gia-oggetto-della-classe-nodotris?show=3803#a3803">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">5 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/ema-pe">ema-pe</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">10,910</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3796">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3796">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3796_1_q3796" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3796_-1_q3796" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">0</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">36</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3796/tipo-selettori-css-relazioni"><span title="Salve, ho letto tutta la traccia del terzo esercizio, ho letto anche la seguente nota, &#x27;&#x27;&#x27;NOTA: questa definizione del CSS e&#x27; una versione ridottissima che non segue lo standard completo. In particolare, non e&#x27; possibile usare piu&#x27; relazioni &#x27;&gt;&#x27; consecutive o costruire selettori alternativi (in OR) e selettori in ... , ma solo selettori che indicano solamente relazioni di: padre-figlio, avo-discendente, o solamente attributi, e non un mix di alcuni di queste per intedenderci.">Tipo selettori CSS?! RELAZIONI</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3796/tipo-selettori-css-relazioni?show=3797#a3797">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">6 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es3">Es3</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/giorgio.belli">giorgio.belli</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">13,390</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/es3?course=fondamenti-di-programmazione">es3</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/dom?course=fondamenti-di-programmazione">dom</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/selettore?course=fondamenti-di-programmazione">selettore</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework?course=fondamenti-di-programmazione">homework</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/css?course=fondamenti-di-programmazione">css</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3787">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3787">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3787_1_q3787" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3787_-1_q3787" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+1</span><span class="qa-netvote-count-pad"> vote</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">32</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3787/h4-3-problema-grader-funzione-elimina_nodi"><span title="salve sto avendo problemi nella funzione elimina_nodi del program03. sono riuscita ad implementarla ricorsivamente senza fare ricorso al modulo my_html fornito dal professore. Unico problema è che quando vado ad eseguire il grader questo mi dice che il risultato è sbagliato, questo perchè: mentre la mia funzione elimina solo il nodo indicato dal  ... &gt; &lt;img alt=&quot;Foto&quot; src=&quot;photo.png&quot; width=&quot;300&quot;&gt; &lt;/body&gt; &lt;/html&gt; dove sto sbagliando, andava modificato anche l&#x27;ordine generale?">[H4.3] Problema grader : funzione elimina_nodi</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3787/h4-3-problema-grader-funzione-elimina_nodi?show=3792#a3792">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">7 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es3">Es3</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework4?course=fondamenti-di-programmazione">homework4</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/program_03?course=fondamenti-di-programmazione">program_03</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item" id="q3785">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3785">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3785_1_q3785" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3785_-1_q3785" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ gianpcr, LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+2</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">21</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+
+                                        <a href="./3785/controllo-genitore-in-un-albero"><span title="come posso fare a controllare se un elemento dell &#x27;albero puo essere considerato come genitore di un nodo (primo esercizio quarta funzione)?">controllo genitore in un albero</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3785/controllo-genitore-in-un-albero?show=3789#a3789">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">7 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es1">Es1</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3771">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3771">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3771_1_q3771" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3771_-1_q3771" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Alessio.Luc, Chaos, Cucchiaro, francesco.dev, LeonardoEmili, Luca T., Powner, Toccacieli">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+8</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">99</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3771/alternative-a-copy-deepcopy"><span title="Buonasera a tutti.Sto avendo un problema con l&#x27;esercizio 2.Ho impostato la gen_tree() in modo che, per creare i figli venga creata una deepcopy della griglia genitore per ogni casella vuota .Quindi contrassegno la casella e la passo nuovamente alla chiamata ricorsiva.Cio&#x27; avviene in maniera iterativa per ogni  ... ogni iterazione alla lista genitore senza dover creare ogni volta una copia e ovviamente senza modificare la lista di partenza??Mi scuso se sono stato poco chiaro">Alternative a copy.deepcopy()</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3771/alternative-a-copy-deepcopy?show=3781#a3781">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">10 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3770">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3770">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3770_1_q3770" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3770_-1_q3770" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ alecapecchi, Cucchiaro, czarbo2, Jury Francia, LeonardoEmili, Luca T.">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+6</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">130</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3770/dubbio-sulla-scadenza-del-quarto-homework-e-il-6-si"><span title="Salve a tutti, Con tale domanda mi riferisco principalmente ai docenti che gestiscono il sito: La data di scadenza del quarto Homework è il 6 dicembre?? Ve lo sto chiedendo perché in questa pagina leggo che in realtà dovrebbe essere il 4 dicembre.. Non vorrei ci fosse stato un errore! http://q2a.di.uniroma1. ...  nasce perché sulla pagina dell&#x27;homework la scadenza è fissata per il 6 dicembre: http://q2a.di.uniroma1.it/3287 Grazie in anticipo. - Francesco Pio Scognamiglio">Dubbio sulla scadenza del quarto Homework (è il 6? Sì)</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3770/dubbio-sulla-scadenza-del-quarto-homework-e-il-6-si?show=3774#a3774">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">23 hours</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/funzionamento-degli-homework">Funzionamento degli homework</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/Luca+T.">Luca T.</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">6,360</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework?course=fondamenti-di-programmazione">homework</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/consegna?course=fondamenti-di-programmazione">consegna</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/scadenza?course=fondamenti-di-programmazione">scadenza</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3745">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3745">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3745_1_q3745" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3745_-1_q3745" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Chaos, Cucchiaro, Don&#x27;t_Pani, francesco.dev, gcomm, LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+6</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">96</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3745/problema-ordine-attributi"><span title="Ho scritto l&#x27;ultima funzione dell&#x27;es3, sto vedendo però che il mio codice setta correttamente l&#x27;attributo style=&quot;background-color:red&quot; Secondo il selettore p a in questo modo: &lt;a href=&quot;http://en.wikipedia.org/&quot; title=&quot;Wikipedia&quot; style=&quot;background-color:red&quot;&gt;Wikipedia&lt;/a&gt; Mentre nel file di risultato style e title sono  ... ://en.wikipedia.org/&quot; style=&quot;background-color:red&quot; title=&quot;Wikipedia&quot;&gt;Wikipedia&lt;/a&gt; Dunque il test del grader non viene superato. E&#x27; un problema del grader?">Problema ordine attributi</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3745/problema-ordine-attributi?show=3762#a3762">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es3">Es3</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/andrea.sterbini">andrea.sterbini</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">58,960</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework4?course=fondamenti-di-programmazione">homework4</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/ordine?course=fondamenti-di-programmazione">ordine</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/grader?course=fondamenti-di-programmazione">grader</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/es3?course=fondamenti-di-programmazione">es3</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3744">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3744">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3744_1_q3744" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3744_-1_q3744" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Chaos, Cucchiaro, francesco.dev, Gabriele97, gcomm, LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+6</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">123</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3744/ancora-su-gen_tree-ancora-non-lho-capita"><span title="credevo di averla capita dopo questa domanda http://q2a.di.uniroma1.it/3546/hw4-2-funzione-gen_tree-non-capisco-cosa-deve-fare ma in realtà mi sono accorto che non è così vero. in particolare la domanda è: gen_tree &quot;genera&quot; l&#x27;albero, ma questo genera mi rimane vago, ovvero, quest&#x27;albero dove va a finire?come lo ...  invece esiti deve ricalcolare l&#x27;albero allora a cosa serve farlo in gen_tree? credo di starmi intrippando per niente, ma davvero non ne esco da due giorni...help!">ancora su gen_tree, ancora non l'ho capita</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3744/ancora-su-gen_tree-ancora-non-lho-capita?show=3757#a3757">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/avvisi">Avvisi</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/mirko">mirko</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">1,120</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item" id="q3748">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3748">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3748_1_q3748" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3748_-1_q3748" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Cucchiaro, francesco.dev, gcomm, LeonardoEmili">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+4</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">42</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+
+                                        <a href="./3748/dubbio-funzione-esiti"><span title="Buonasera, stavo analizzando la funzione Esiti per poi scrivere il codice. Ho un dubbio a riguardo. Nella funzione Esiti mi vorrei girare tutto l&#x27;attributo lista_figli generato nella funzione gen_tree ma in questa lista ci sono anche dei nodi in cui nessuno ha vinto e che non è ancora &#x27;completa&#x27; (ovvero ci sono dei valori uguali a una stringa vuota). Questi nodi sono da considerarsi come patte oppure non devono essere tenuti in considerazione nel risultato finale?">Dubbio funzione Esiti()</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3748/dubbio-funzione-esiti?show=3755#a3755">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/GiovanniQuadraroli">GiovanniQuadraroli</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">950</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                    <div class="qa-q-item-tags">
+                                        <ul class="qa-q-item-tag-list">
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework4?course=fondamenti-di-programmazione">homework4</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/comprensione?course=fondamenti-di-programmazione">comprensione</a></li>
+                                            <li class="qa-q-item-tag-item"><a class="qa-tag-link" href="./tag/homework?course=fondamenti-di-programmazione">homework</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3735">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3735">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3735_1_q3735" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3735_-1_q3735" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ Cucchiaro, francesco.dev, gcomm, LeonardoEmili, stepzepp">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+5</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">54</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3735/dubbio-testlib"><span title="Scusate la domanda forse sciocca ... Ma le funzioni dentro my_lib si posso utilizzare ?">Dubbio testlib</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3735/dubbio-testlib?show=3753#a3753">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/funzionamento-degli-homework">Funzionamento degli homework</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/stepzepp">stepzepp</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">1,780</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3741">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3741">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3741_1_q3741" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3741_-1_q3741" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ cerealKiller, francesco.dev, gcomm">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+3</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">2</span><span class="qa-a-count-pad"> answers</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">34</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3741/dividere-lista-in-sottolista-senza-usare-dizionari"><span title="Salve a tutti, devo dividere una lista in 3 sottoliste per un esercizio, in modo da creare delle colonne da 3 elementi ciascuna. Usando il comando lst.splitlines() riesco a dividere le stringhe nel numero di elementi che desidero, ma avrei bisogno di creare una sottolista per ogni 3 elementi. So che ciò è relativamente facile da ottenere usando i dizionari, ma l&#x27;esercizio mi chiede di svolgerlo partendo da una stringa.">Dividere lista in sottolista senza usare dizionari</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3741/dividere-lista-in-sottolista-senza-usare-dizionari?show=3746#a3746">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/programmare-in-python">Programmare in Python</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/split">split</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">10,910</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                            <div class="qa-q-list-item qa-q-closed" id="q3734">
+                                <div class="qa-q-item-stats">
+                                    <div class="qa-voting qa-voting-net" id="voting_3734">
+                                        <div class="qa-vote-buttons qa-vote-buttons-net">
+                                            <input class="qa-vote-first-button qa-vote-up-button" name="vote_3734_1_q3734" onclick="return qa_vote_click(this);" title="Click to vote up" type="submit" value="+" />
+                                            <input class="qa-vote-second-button qa-vote-down-button" name="vote_3734_-1_q3734" onclick="return qa_vote_click(this);" title="Click to vote down" type="submit" value="–" />
+                                        </div>
+                                        <div class="qa-vote-count qa-vote-count-net" title="↑ cerealKiller, Cucchiaro, francesco.dev, gcomm, LeonardoEmili, split">
+                                            <span class="qa-netvote-count">
+																						<span class="qa-netvote-count-data">+6</span><span class="qa-netvote-count-pad"> votes</span>
+                                            </span>
+                                        </div>
+                                        <div class="qa-vote-clear">
+                                        </div>
+                                    </div>
+                                    <span class="qa-a-count qa-a-count-selected">
+																				<span class="qa-a-count-data">1</span><span class="qa-a-count-pad"> answer</span>
+                                    </span>
+                                    <span class="qa-view-count">
+																				<span class="qa-view-count-data">47</span><span class="qa-view-count-pad"> views</span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-main">
+                                    <div class="qa-q-item-title">
+                                        <img alt="closed" class="qam-q-list-close-icon" src="./qa-theme/SnowFlat/images/icons/closed-q-list.png" title="closed" />
+                                        <a href="./3734/x-o-o-come-decidere"><span title="sapete darmi qualche consiglio su come far dire al programma quando mettere una &#x27;x&#x27; e quando una &#x27;o&#x27;">'x' o 'o' come decidere</span></a>
+                                    </div>
+                                    <span class="qa-q-item-avatar-meta">
+																				<span class="qa-q-item-meta">
+																					<a class="qa-q-item-what" href="./3734/x-o-o-come-decidere?show=3738#a3738">answered</a>
+																					<span class="qa-q-item-when">
+																						<span class="qa-q-item-when-data">1 day</span><span class="qa-q-item-when-pad"> ago</span>
+                                    </span>
+                                    <span class="qa-q-item-where">
+																						<span class="qa-q-item-where-pad">in </span><span class="qa-q-item-where-data"><a class="qa-category-link qa-cat-parent-favorited" href="./fondamenti-di-programmazione/homehork-4/es2">Es2</a></span>
+                                    </span>
+                                    <span class="qa-q-item-who">
+																						<span class="qa-q-item-who-pad">by </span>
+                                    <span class="qa-q-item-who-data"><a class="qa-user-link" href="./user/split">split</a></span>
+                                    <span class="qa-q-item-who-points">
+																							<span class="qa-q-item-who-points-pad">(</span><span class="qa-q-item-who-points-data">10,910</span><span class="qa-q-item-who-points-pad"> points)</span>
+                                    </span>
+                                    <span class="qa-q-item-who-pad"> </span>
+                                    </span>
+                                    </span>
+                                    </span>
+                                </div>
+                                <div class="qa-q-item-clear">
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="qa-q-list-form">
+                            <input name="code" type="hidden" value="1-1512241643-57a4423b47056a21bc4562b5a026375044c9e19b" />
+                        </div>
+                    </form>
+                </div>
+                <div class="qa-suggest-next">
+                    To see more, click for all the <a href="./questions/fondamenti-di-programmazione">questions in this category</a>.
+                </div>
+                <div class="qa-widgets-main qa-widgets-main-bottom">
+                    <div class="qa-widget-main qa-widget-main-bottom">
+                        <div class="qa-ask-box">
+                            <form action="./ask?cat=1" method="post">
+                                <table class="qa-form-tall-table" style="width:100%">
+                                    <tr style="vertical-align:middle;">
+                                        <td class="qa-form-tall-label" style="padding:8px; white-space:nowrap; text-align:right;" width="1">
+                                            Ask a question:
+                                        </td>
+                                        <td class="qa-form-tall-data" style="padding:8px;" width="*">
+                                            <input class="qa-form-tall-text" name="title" style="width:95%;" type="text" />
+                                        </td>
+                                    </tr>
+                                </table>
+                                <input name="doask1" type="hidden" value="1" />
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="qam-sidepanel-toggle"><i class="icon-left-open-big"></i></div>
+            <div class="qa-sidepanel" id="qam-sidepanel-mobile">
+                <div class="qam-search turquoise ">
+                    <div class="qa-search">
+                        <form action="./search" method="get">
+
+                            <input class="qa-search-field" name="q" type="text" value="" />
+                            <input class="qa-search-button" type="submit" value="Search" />
+                        </form>
+                    </div>
+                </div>
+                <div class="qa-sidebar wet-asphalt">
+                    <div style="text-align:center; background: red">
+                        <b>
+<img alt="Don&#x27;t panic" src="/assets/marvin-dp-512x384.jpg" width="100%"/>
+<br/>
+Ho <a href="/3578">aggiornato il file dello homework 4</a> 
+<br/>
+per risolvere un paio di bug
+<br/>
+SOSTITUITE TUTTI I FILE
+<br/>
+<br/>
+ATTENZIONE! LE SOLUZIONI DEVONO ESSERE RICORSIVE! (tranne per il metodo  NodoTris.tipo())
+<ul> 
+<li><a href="/assets/homework3.pdf">voti del 3° HW</a></li> 
+<li><a href="/assets/homework2.pdf">voti del 2° HW</a></li> 
+<li><a href="/assets/homework1.pdf">voti del 1° HW</a></li> 
+</ul>
+</b></div>
+                </div>
+
+                <div class="qa-widgets-side qa-widgets-side-high">
+                    <div class="qa-widget-side qa-widget-side-high">
+                        <div class="hw-awards">
+                            <h4>Homework 3 - Champions Cups</h4>
+                            <table class="hw-champion">
+                                <tr>
+                                    <td title="2° in classifica generale"><span>BlackStartx</span>
+                                        <div></div>
+                                    </td>
+                                    <td title="1° in classifica generale"><span>ema-pe</span>
+                                        <div></div>
+                                    </td>
+                                    <td title="3° in classifica generale"><span>giorgio.belli</span>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                            </table><small><a href="./awards">Hall of fame</a></small></div>
+                        <br/>
+                        <div class="hw-awards">
+                            <h4>Homework 3 - Olympic Medals</h4>
+                            <table class="hw-olympiad">
+                                <tr>
+                                    <td title="2° in top 10 a consegnare"><span>pengfei</span>
+                                        <div></div>
+                                    </td>
+                                    <td title="1° in top 10 a consegnare"><span>gianpcr</span>
+                                        <div></div>
+                                    </td>
+                                    <td title="3° in top 10 a consegnare"><span>giorgio.belli</span>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                            </table><small><a href="./awards">Hall of fame</a></small></div>
+                    </div>
+                    <div class="qa-widget-side qa-widget-side-high">
+                        <h2 style="margin-top: 0; padding-top: 0;">Most popular tags</h2>
+                        <div style="font-size: 10px;">
+                            <a href="./tag/homework" style="font-size: 36px; vertical-align: baseline;">homework</a>
+                            <a href="./tag/python" style="font-size: 21px; vertical-align: baseline;">python</a>
+                            <a href="./tag/homework4" style="font-size: 13px; vertical-align: baseline;">homework4</a>
+                            <a href="./tag/grader" style="font-size: 8px; vertical-align: baseline;">grader</a>
+                            <a href="./tag/comprensione" style="font-size: 8px; vertical-align: baseline;">comprensione</a>
+                            <a href="./tag/avvisi" style="font-size: 8px; vertical-align: baseline;">avvisi</a>
+                            <a href="./tag/ricorsione" style="font-size: 8px; vertical-align: baseline;">ricorsione</a>
+                            <a href="./tag/problema" style="font-size: 8px; vertical-align: baseline;">problema</a>
+                            <a href="./tag/esecuzione" style="font-size: 8px; vertical-align: baseline;">esecuzione</a>
+                            <a href="./tag/liste" style="font-size: 8px; vertical-align: baseline;">liste</a>
+                            <a href="./tag/homework3" style="font-size: 8px; vertical-align: baseline;">homework3</a>
+                            <a href="./tag/velocit%C3%A0" style="font-size: 8px; vertical-align: baseline;">velocità</a>
+                            <a href="./tag/homework2" style="font-size: 8px; vertical-align: baseline;">homework2</a>
+                            <a href="./tag/esercizio" style="font-size: 8px; vertical-align: baseline;">esercizio</a>
+                            <a href="./tag/alberi" style="font-size: 8px; vertical-align: baseline;">alberi</a>
+                            <a href="./tag/esercizio2" style="font-size: 8px; vertical-align: baseline;">esercizio2</a>
+                            <a href="./tag/intricatezza" style="font-size: 8px; vertical-align: baseline;">intricatezza</a>
+                            <a href="./tag/dizionari" style="font-size: 8px; vertical-align: baseline;">dizionari</a>
+                            <a href="./tag/efficienza" style="font-size: 8px; vertical-align: baseline;">efficienza</a>
+                            <a href="./tag/test" style="font-size: 8px; vertical-align: baseline;">test</a>
+                            <a href="./tag/esercizio3" style="font-size: 8px; vertical-align: baseline;">esercizio3</a>
+                            <a href="./tag/grade" style="font-size: 8px; vertical-align: baseline;">grade</a>
+                            <a href="./tag/correttore" style="font-size: 8px; vertical-align: baseline;">correttore</a>
+                            <a href="./tag/classi" style="font-size: 8px; vertical-align: baseline;">classi</a>
+                            <a href="./tag/esercizio1" style="font-size: 8px; vertical-align: baseline;">esercizio1</a>
+                            <a href="./tag/es3" style="font-size: 8px; vertical-align: baseline;">es3</a>
+                            <a href="./tag/oggetti" style="font-size: 8px; vertical-align: baseline;">oggetti</a>
+                            <a href="./tag/filejson" style="font-size: 8px; vertical-align: baseline;">filejson</a>
+                            <a href="./tag/cartellino-rosso" style="font-size: 8px; vertical-align: baseline;">cartellino-rosso</a>
+                            <a href="./tag/program_01" style="font-size: 8px; vertical-align: baseline;">program_01</a>
+                            <a href="./tag/valutazione" style="font-size: 8px; vertical-align: baseline;">valutazione</a>
+                            <a href="./tag/metodi" style="font-size: 8px; vertical-align: baseline;">metodi</a>
+                            <a href="./tag/prova-di-recupero" style="font-size: 8px; vertical-align: baseline;">prova-di-recupero</a>
+                            <a href="./tag/ricorsivit%C3%A0" style="font-size: 8px; vertical-align: baseline;">ricorsività</a>
+                            <a href="./tag/es2" style="font-size: 8px; vertical-align: baseline;">es2</a>
+                            <a href="./tag/ricorsive" style="font-size: 8px; vertical-align: baseline;">ricorsive</a>
+                            <a href="./tag/grade01" style="font-size: 8px; vertical-align: baseline;">grade01</a>
+                            <a href="./tag/funzioni" style="font-size: 8px; vertical-align: baseline;">funzioni</a>
+                            <a href="./tag/tempo" style="font-size: 8px; vertical-align: baseline;">tempo</a>
+                            <a href="./tag/for" style="font-size: 8px; vertical-align: baseline;">for</a>
+                            <a href="./tag/ciclo" style="font-size: 8px; vertical-align: baseline;">ciclo</a>
+                            <a href="./tag/programmazione" style="font-size: 8px; vertical-align: baseline;">programmazione</a>
+                            <a href="./tag/laboratori" style="font-size: 8px; vertical-align: baseline;">laboratori</a>
+                            <a href="./tag/program_03" style="font-size: 8px; vertical-align: baseline;">program_03</a>
+                            <a href="./tag/criteri" style="font-size: 8px; vertical-align: baseline;">criteri</a>
+                            <a href="./tag/voti" style="font-size: 8px; vertical-align: baseline;">voti</a>
+                            <a href="./tag/time" style="font-size: 8px; vertical-align: baseline;">time</a>
+                            <a href="./tag/risultato" style="font-size: 8px; vertical-align: baseline;">risultato</a>
+                            <a href="./tag/immagini" style="font-size: 8px; vertical-align: baseline;">immagini</a>
+                            <a href="./tag/anaconda" style="font-size: 8px; vertical-align: baseline;">anaconda</a>
+                            <a href="./tag/dom" style="font-size: 8px; vertical-align: baseline;">dom</a>
+                            <a href="./tag/tic-tac-toe" style="font-size: 8px; vertical-align: baseline;">tic-tac-toe</a>
+                            <a href="./tag/grade04" style="font-size: 8px; vertical-align: baseline;">grade04</a>
+                            <a href="./tag/no-nested-functions" style="font-size: 8px; vertical-align: baseline;">no-nested-functions</a>
+                            <a href="./tag/recursion-test" style="font-size: 8px; vertical-align: baseline;">recursion-test</a>
+                            <a href="./tag/selettore" style="font-size: 8px; vertical-align: baseline;">selettore</a>
+                            <a href="./tag/debugged" style="font-size: 8px; vertical-align: baseline;">debugged</a>
+                            <a href="./tag/unicodeencodeerror" style="font-size: 8px; vertical-align: baseline;">unicodeencodeerror</a>
+                            <a href="./tag/strategia_vincente" style="font-size: 8px; vertical-align: baseline;">strategia_vincente</a>
+                            <a href="./tag/dicti" style="font-size: 8px; vertical-align: baseline;">dicti</a>
+                            <a href="./tag/ultras" style="font-size: 8px; vertical-align: baseline;">ultras</a>
+                            <a href="./tag/grafi" style="font-size: 8px; vertical-align: baseline;">grafi</a>
+                            <a href="./tag/nodo" style="font-size: 8px; vertical-align: baseline;">nodo</a>
+                            <a href="./tag/nodi" style="font-size: 8px; vertical-align: baseline;">nodi</a>
+                            <a href="./tag/gruppo" style="font-size: 8px; vertical-align: baseline;">gruppo</a>
+                            <a href="./tag/json" style="font-size: 8px; vertical-align: baseline;">json</a>
+                            <a href="./tag/es1" style="font-size: 8px; vertical-align: baseline;">es1</a>
+                            <a href="./tag/pesi" style="font-size: 8px; vertical-align: baseline;">pesi</a>
+                            <a href="./tag/howto" style="font-size: 8px; vertical-align: baseline;">howto</a>
+                            <a href="./tag/iterazione" style="font-size: 8px; vertical-align: baseline;">iterazione</a>
+                            <a href="./tag/classifica" style="font-size: 8px; vertical-align: baseline;">classifica</a>
+                            <a href="./tag/grade03" style="font-size: 8px; vertical-align: baseline;">grade03</a>
+                            <a href="./tag/upload" style="font-size: 8px; vertical-align: baseline;">upload</a>
+                            <a href="./tag/error" style="font-size: 8px; vertical-align: baseline;">error</a>
+                            <a href="./tag/timeout" style="font-size: 8px; vertical-align: baseline;">timeout</a>
+                            <a href="./tag/kernel" style="font-size: 8px; vertical-align: baseline;">kernel</a>
+                            <a href="./tag/scadenza" style="font-size: 8px; vertical-align: baseline;">scadenza</a>
+                            <a href="./tag/consegna" style="font-size: 8px; vertical-align: baseline;">consegna</a>
+                            <a href="./tag/eventi" style="font-size: 8px; vertical-align: baseline;">eventi</a>
+                            <a href="./tag/consigli" style="font-size: 8px; vertical-align: baseline;">consigli</a>
+                            <a href="./tag/conversione" style="font-size: 8px; vertical-align: baseline;">conversione</a>
+                            <a href="./tag/standard" style="font-size: 8px; vertical-align: baseline;">standard</a>
+                            <a href="./tag/libreria" style="font-size: 8px; vertical-align: baseline;">libreria</a>
+                            <a href="./tag/ordine" style="font-size: 8px; vertical-align: baseline;">ordine</a>
+                            <a href="./tag/tuple" style="font-size: 8px; vertical-align: baseline;">tuple</a>
+                            <a href="./tag/iterabile" style="font-size: 8px; vertical-align: baseline;">iterabile</a>
+                            <a href="./tag/css" style="font-size: 8px; vertical-align: baseline;">css</a>
+                            <a href="./tag/stringa" style="font-size: 8px; vertical-align: baseline;">stringa</a>
+                            <a href="./tag/tempi" style="font-size: 8px; vertical-align: baseline;">tempi</a>
+                            <a href="./tag/mac" style="font-size: 8px; vertical-align: baseline;">mac</a>
+                            <a href="./tag/linux" style="font-size: 8px; vertical-align: baseline;">linux</a>
+                            <a href="./tag/3" style="font-size: 8px; vertical-align: baseline;">3</a>
+                            <a href="./tag/4" style="font-size: 8px; vertical-align: baseline;">4</a>
+                            <a href="./tag/corso" style="font-size: 8px; vertical-align: baseline;">corso</a>
+                            <a href="./tag/file" style="font-size: 8px; vertical-align: baseline;">file</a>
+                            <a href="./tag/casata-de-bischeri" style="font-size: 8px; vertical-align: baseline;">casata-de-bischeri</a>
+                            <a href="./tag/matrici" style="font-size: 8px; vertical-align: baseline;">matrici</a>
+                            <a href="./tag/hw3" style="font-size: 8px; vertical-align: baseline;">hw3</a>
+                            <a href="./tag/quadrato" style="font-size: 8px; vertical-align: baseline;">quadrato</a>
+                            <a href="./tag/teamwork" style="font-size: 8px; vertical-align: baseline;">teamwork</a>
+                        </div>
+                    </div>
+                    <div class="qa-widget-side qa-widget-side-high">
+                        <div class="qa-activity-count">
+                            <a class="qa-activity-count-item" href="/questions" style="color:white">
+																	<span class="qa-activity-count-data">503</span> questions
+																</a>
+                            <a class="qa-activity-count-item" href="/answers" style="color:white">
+																	<span class="qa-activity-count-data">1,055</span> answers
+																</a>
+                            <a class="qa-activity-count-item" href="/comments" style="color:white">
+																	<span class="qa-activity-count-data">1,813</span> comments
+																</a>
+                            <a class="qa-activity-count-item" href="/users" style="color:white">
+																	<span class="qa-activity-count-data">429</span> users
+																</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="qa-nav-cat">
+                    <ul class="qa-nav-cat-list qa-nav-cat-list-1">
+                        <li class="qa-nav-cat-item qa-nav-cat-all">
+                            <a class="qa-nav-cat-link" href="./">All categories</a>
+                        </li>
+                        <li class="qa-nav-cat-item qa-nav-cat-fondamenti-di-programmazione">
+                            <a class="qa-nav-cat-link qa-nav-cat-selected qa-nav-cat-favorited" href="./fondamenti-di-programmazione" title="Forum del corso di Fondamenti di Programmazione, AA 2017-18">Fondamenti di Programmazione</a>
+                            <span class="qa-nav-cat-note">(489)</span>
+                            <ul class="qa-nav-cat-list qa-nav-cat-list-2">
+                                <li class="qa-nav-cat-item qa-nav-cat-avvisi">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/avvisi" title="Qui pubblichiamo gli avvisi sul corso.">Avvisi</a>
+                                    <span class="qa-nav-cat-note">(30)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-software-usato">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/software-usato" title="Qui tutte le domande sul software da usare nel corso (installazione e problemi vari compresi).">Software usato</a>
+                                    <span class="qa-nav-cat-note">(8)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-programmare-in-python">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/programmare-in-python" title="Curiosità e buone idee nella programmazione Python">Programmare in Python</a>
+                                    <span class="qa-nav-cat-note">(70)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-funzionamento-degli-homework">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/funzionamento-degli-homework" title="Domande generiche sul funzionamento degli homework e del sistema di test">Funzionamento degli homework</a>
+                                    <span class="qa-nav-cat-note">(62)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-homework-1">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/homework-1">Homework 1</a>
+                                    <span class="qa-nav-cat-note">(93)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-homework-2">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/homework-2">Homework 2</a>
+                                    <span class="qa-nav-cat-note">(83)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-homework-3">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/homework-3">Homework 3</a>
+                                    <span class="qa-nav-cat-note">(48)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-homehork-4">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/homehork-4">Homework 4</a>
+                                    <span class="qa-nav-cat-note">(75)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-homework-5">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/homework-5">Homework 5</a>
+                                    <span class="qa-nav-cat-note">(0)</span>
+                                </li>
+                                <li class="qa-nav-cat-item qa-nav-cat-altri-argomenti">
+                                    <a class="qa-nav-cat-link" href="./fondamenti-di-programmazione/altri-argomenti" title="Domande sul corso, ma che non riguardano gli homework.">Altri argomenti</a>
+                                    <span class="qa-nav-cat-note">(19)</span>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="qa-nav-cat-item qa-nav-cat-architettura-degli-elaboratori">
+                            <a class="qa-nav-cat-link qa-nav-cat-favorited" href="./architettura-degli-elaboratori" title="Forum di auto-aiuto per gli esercizi/homework ASM del corso di Architettura degli elaboratori">Architettura degli elaboratori</a>
+                            <span class="qa-nav-cat-note">(1)</span>
+                        </li>
+                        <li class="qa-nav-cat-item qa-nav-cat-other">
+                            <a class="qa-nav-cat-link" href="./other">Other</a>
+                            <span class="qa-nav-cat-note">(13)</span>
+                        </li>
+                    </ul>
+                    <div class="qa-nav-cat-clear">
+                    </div>
+                </div>
+                <div class="qa-feed">
+                    <a class="qa-feed-link" href="./feed/qa/fondamenti-di-programmazione.rss">Recent questions and answers in Fondamenti di Programmazione</a>
+                </div>
+                <div class="qa-widgets-side qa-widgets-side-bottom">
+                    <div class="qa-widget-side qa-widget-side-bottom">
+                        <div>
+                            Recent Badges
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-gold" title="Read total of 200 questions (Gold)"><span>Devoted Reader</span></div>
+                                <div class="badge-ribbon badge-ribbon-gold"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-gold"><strong class="ribbon-content">FrancescoSanetti</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Answer received +2 upvote (Bronze)"><span>Nice Answer</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">andrea.sterbini</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Question received +2 upvote (Bronze)"><span>Nice Question</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">ema-pe</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Asked question received 50 views (Bronze)"><span>Notable Question</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">ema-pe</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Asked question received 50 views (Bronze)"><span>Notable Question</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">jacopoRufini</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Answer received +2 upvote (Bronze)"><span>Nice Answer</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">mirko</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-silver" title="Asked question received 100 views (Silver)"><span>Popular Question</span></div>
+                                <div class="badge-ribbon badge-ribbon-silver"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-silver"><strong class="ribbon-content">Dammy The Mountain</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-bronze" title="Answer received +2 upvote (Bronze)"><span>Nice Answer</span></div>
+                                <div class="badge-ribbon badge-ribbon-bronze"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-bronze"><strong class="ribbon-content">GiorgioAgosta</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-gold" title="Read total of 200 questions (Gold)"><span>Devoted Reader</span></div>
+                                <div class="badge-ribbon badge-ribbon-gold"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-gold"><strong class="ribbon-content">maryna</strong></span>
+                            </div>
+                        </div>
+                        <div class="badge-widget-entry">
+                            <div class="badge-medal">
+                                <div class="badge-silver" title="Answer received +5 upvote (Silver)"><span>Good Answer</span></div>
+                                <div class="badge-ribbon badge-ribbon-silver"></div>
+                            </div>
+                            <div class="non-semantic-protector">
+                                <span class="ribbon ribbon-silver"><strong class="ribbon-content">LeonardoEmili</strong></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="qam-footer-box">
+        <div class="qam-footer-row">
+        </div>
+        <div class="qa-footer">
+            <div class="qa-nav-footer">
+                <ul class="qa-nav-footer-list">
+                    <li class="qa-nav-footer-item qa-nav-footer-feedback">
+                        <a class="qa-nav-footer-link" href="./feedback">Send feedback</a>
+                    </li>
+                </ul>
+                <div class="qa-nav-footer-clear">
+                </div>
+            </div>
+            <a href="" onclick="course_set_theme(1);" style="color:white">new theme</a>
+            <div class="qa-attribution">
+                Snow Theme by <a href="http://www.q2amarket.com">Q2A Market</a>
+            </div>
+            <div class="qa-attribution">
+                Powered by <a href="http://www.question2answer.org/">Question2Answer</a>
+            </div>
+            <div class="qa-footer-clear">
+            </div>
+        </div>
+
+    </div>
+    <div style="position:absolute; left:-9999px; top:-9999px;">
+        <span class="qa-waiting" id="qa-waiting-template">...</span>
+    </div>
+</body>
+
+</html>

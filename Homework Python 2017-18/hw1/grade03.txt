@@ -1,0 +1,29 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+>>> codifica('the quick brown fox jumps over the lazy dog', 'papaveri e papere')
+'rqrqzbhx b rqrbhb'
+
+>>> decodifica('the quick brown fox jumps over the lazy dog', 'rqrqzbhx b rqrbhb')
+'papaveri e papere'
+
+
+>>> codifica('abracadabra', 'abracadabra')
+'cdacbcrcdac'
+
+>>> decodifica('abracadabra', 'cdacbcrcdac')
+'abracadabra'
+
+
+>>> codifica('chiave crittografica', 'Ciao! ben tornato. Rivederti E’ un piacere')
+'Crhf! ben cfinhcf. Rraedeicr E’ un prhveie'
+
+>>> decodifica('chiave crittografica', 'Crhf! ben cfinhcf. Rraedeicr E’ un prhveie')
+'Ciao! ben tornato. Rivederti E’ un piacere'
+
+
+>>> codifica('zyxwvutsrqponmlkjihgfedcba', 'la nebbia agli irti colli')
+'oz mvyyrz ztor rigr xloor'
+
+>>> decodifica('zyxwvutsrqponmlkjihgfedcba', 'oz mvyyrz ztor rigr xloor')
+'la nebbia agli irti colli'

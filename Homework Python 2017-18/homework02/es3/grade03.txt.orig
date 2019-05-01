@@ -1,0 +1,17 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+>>> import program03
+
+>>> program03.decod('file.txt','121')
+{'afa', 'ada', 'gag', 'sos', 'ere', 'ivi', 'aia', 'ala', 'iti', 'odo', 'ara', 'ava', 'imi', 'oro', 'ama', 'non', 'idi', 'oso'}
+
+>>> program03.decod('file.txt','3533939339')
+{'ninnananna'}
+
+>>>program03.decod('file.txt','138831')
+>>> set()
+
+>>> program03.decod('file.txt','609155')
+{'aderii', 'soiree', 'kaputt', 'scalee', 'servii', 'dormii', 'fornii', 'spedii', 'lintee', 'barcee', 'prozii', 'cornee', 'chinee', 'ipogee', 'stonii', 'vitree', 'lambii', 'acquee', 'sparii', 'tropee', 'arguii', 'limnee', 'gradii', 'trabee', 'giudee', 'livree', 'nutrii', 'orwell', 'colpii', 'carnee', 'pendii', 'sorbii', 'cupree', 'guarii', 'mirtee', 'platee', 'svenii', 'morfee', 'pentii', 'partii', 'lignee', 'tradii', 'patrii', 'brucii', 'idonee', 'tornii', 'yankee', 'reagii', 'bypass', 'abolii', 'condii', 'nausee', 'ruglii', 'svolii', 'mentii', 'stupii', 'mazdee', 'pigmee', 'epizoo', 'gremii', 'raspii', 'scolii', 'glacee', 'lauree', 'refill', 'restii', 'sancii', 'seguii', 'lincee', 'glorii', 'spazii', 'gneiss', 'brusii', 'sentii', 'svanii', 'tarpee', 'ronzii', 'spurii', 'uvacee', 'contee', 'ghinee', 'ascree', 'bandii', 'dionee'}
+

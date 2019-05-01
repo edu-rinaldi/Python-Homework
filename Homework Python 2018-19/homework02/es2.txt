@@ -1,0 +1,18 @@
+Apro il file e costruisco un dizionario avente come chiave l' id del post e come valore la lista delle parole
+in ogni post.
+Inizializzo tre dizionari che avranno come chiavi le parole dei post e come valori:
+-DizI1: come valore avrà il numero totale di occorrenze della parola nei post
+-DizI2: il numero di post in cui la parola compare
+-DizI3: il valore I3
+Per costruire DizI1, scorro su ogni parola di ogni post ed a ogni occorrenza incremento il contatore
+associato.
+Per costruire DizI2, inizializzo un set ad ogni scorrimento di post, e per ogni parola se non è nel set 
+incremento il contatore e aggiungo la parola al set.
+Per costruire DizI3,per ogni post inizializzo un dizionario dizTempI3, temporaneo, in cui per ogni
+parola conto le proprie occorrenze all'interno del post.
+Con questo dizTempI3 costruisco le tuple che dovranno andare in dizI3 e nel caso in cui una parola sia
+già presente come chiave in dizI3 le confronto con quelle già presenti, altrimenti la aggiungo 
+direttamente.
+Dopo aver costruito la tabella con le informazioni calcolate prima, restituisco la lista
+ordinata secondo le richieste.
+ 

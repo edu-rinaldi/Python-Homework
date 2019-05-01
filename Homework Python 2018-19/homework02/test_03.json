@@ -1,0 +1,89 @@
+{
+	"test1" : {
+		"enabled": true,
+		"filename": "mp1.txt",
+		"expected": 4,
+		"descrizione": "Esempio preso dal testo del programma"
+	},
+	"test2" : {
+		"enabled": true,
+		"filename": "mp2.txt",
+		"expected": 3000,
+		"descrizione": "istanza in cui la zona circoscritta e' un rettangolo di base 10000 e altezza 20 e l'insieme contiene 9000 quadrati interni equispaziati ad altezza 5 e 10 e 15 e 1000 quadrati esterni equispaziati ad altezza 25"
+	},
+	"test3" : {
+		"enabled": true,
+		"filename": "mp3.txt",
+		"expected": 1000,
+		"descrizione": "istanza in cui -il primo cammino e' formato da una un'alternanza di 2 passi in alto e due passi a destra per 5000 volte.  -Il secondo cammino parte con 4 passi a destra e poi ha un alternanza di due passi in alto e due a destra per 5000-2 volte e 4 passi in alto per finire.  L'insieme contiene 3000 quadrati (x,x-4),(x,x),(x,x+4) dove x e' qualunque multiplo di 10 fino a 10000."
+	},
+	"test4" : {
+		"enabled": true,
+		"filename": "mp4.txt",
+		"expected": 200,
+		"descrizione": "istanza in cui la zona circoscritta e' un rettangolo di base 4 e altezza 100000 l'insieme dei quadrati e' composto da quadrati del tipo (3,x) e (5,x) e (8,x) con x multiplo di 1000 e non superiore a 100000"
+	},
+	"test5" : {
+		"enabled": true,
+		"filename": "mp5.txt",
+		"expected": 4,
+		"descrizione": "zona costruita a mano con 19 punti sul bordo, 4 interni, 5 esterni, 25 interni al BB, 3 esterni al BB"
+	},
+
+	"mirror-all-onBorder" : {
+		"enabled": true,
+		"filename": "mp-mirror-onBorder.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi simmetrici rispetto a y=x e il 5% dei quadrati a caso tutti sul bordo"
+	},
+	"mirror-all-outBB" : {
+		"enabled": true,
+		"filename": "mp-mirror-outBB.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi simmetrici rispetto a y=x e 1000 quadrati a caso tutti fuori dal BB"
+	},
+	"mirror-all-inBB" : {
+		"enabled": true,
+		"filename": "mp-mirror-inBB.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi simmetrici rispetto a y=x e 1000 quadrati a caso tutti dentro il BB"
+	},
+	"mirror-all-inside" : {
+		"enabled": true,
+		"filename": "mp-mirror-inside.txt",
+		"expected": 363,
+		"descrizione": " zona racchiusa casuale con due percorsi simmetrici rispetto a y=x e il 5% dei quadrati a caso tutti dentro"
+	},
+
+	"snake-all-onBorder" : {
+		"enabled": true,
+		"filename": "mp-snake-onBorder.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi paralleli e il 5% dei quadrati a caso tutti sul bordo"
+	},
+	"snake-all-outBB" : {
+		"enabled": true,
+		"filename": "mp-snake-outBB.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi paralleli e 1000 quadrati a caso tutti fuori dal BB"
+	},
+	"snake-all-inBB" : {
+		"enabled": true,
+		"filename": "mp-snake-inBB.txt",
+		"expected": 0,
+		"descrizione": " zona racchiusa casuale con due percorsi paralleli e 1000 quadrati a caso tutti dentro il BB"
+	},
+	"snake-all-inside" : {
+		"enabled": true,
+		"filename": "mp-snake-inside.txt",
+		"expected": 394,
+		"descrizione": " zona racchiusa casuale con due percorsi paralleli e il 5% dei quadrati a caso tutti dentro"
+	}
+}
+
+
+
+
+
+
+

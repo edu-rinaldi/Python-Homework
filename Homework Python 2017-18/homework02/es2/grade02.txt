@@ -1,0 +1,31 @@
+
+# esempi di chiamate a funzione e risultati testati del grade
+
+>>> import program02
+
+>>> program02.pianifica('file02_10_2.txt', {'2','4','11','1','6','9','10'},'test1.json')
+# il dizionario in 'test1.json' deve essere uguale a quello in outTest1.json
+
+>>> program02.pianifica('file02_10000_50.txt',{'10','20','30','40','50','60','70','80'},'test2.json')
+# il dizionario in 'test2.json' deve essere uguale a quello in 'risTest2.json'.
+
+>>> program02.pianifica('file02_50000_100.txt', {'1','2','3','4','5','6','7','8','9'},'test3.json')
+# il dizionario in 'test3.json' deve essere uguale a quello in 'risTest3.json'
+
+>>> program02.pianifica('file02_50000_100.txt', set([str(i) for i in range(1000,2001)]),'test4.json')
+# il dizionario in 'test4.json' deve essere uguale a quello in 'risTest4.json'
+
+>>> program02.pianifica('file02_50000_100.txt', set([str(i) for i in range(2000,50001)]),'test5.json')
+# il dizionario in 'test5.json' deve essere uguale a quello in 'risTest5.json'
+
+>>> z=80
+>>> program02.pianifica('file02_200000.txt', set([str(x) for x in range(1,z,2)]) | set([str(x) for x in range(199998,199998-z-1,-2)]),'test6.json')
+# il dizionario in 'test6.json' deve essere uguale a quello in 'risTest6.json'
+
+>>> z=100
+>>> program02.pianifica('file02_200000.txt', set([str(x) for x in range(1,z,2)]) | set([str(x) for x in range(199998,199998-z-1,-2)]),'test7.json')
+# il dizionario in 'test7.json' deve essere uguale a quello in 'risTest7.json'
+
+>>> z=140
+>>> program02.pianifica('file02_200000.txt', set([str(x) for x in range(1,z,2)]) | set([str(x) for x in range(199998,199998-z-1,-2)]),'test8.json')
+# il dizionario in 'test8.json' deve essere uguale a quello in 'risTest8.json'

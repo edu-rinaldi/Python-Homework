@@ -1,0 +1,59 @@
+
+# esempi di  risultati testati del grader
+
+
+from program01 import *
+
+>>> genera_sottoalbero(‘Alb10.json’,’d’,’tAlb10_1.json’)
+# il dizionario-albero in  ’tAlb10_1.json’ deve essere uguale dizionario-albero in 'risAlb10_1.json' 
+
+>>> cancella_sottoalbero('Alb10.json','d',’tAlb10_2.json’)
+# il dizionario-albero in  ’tAlb10_2.json’ deve essere uguale dizionario-albero in 'risAlb10_2.json'
+
+>>> dizionario_livelli('Alb10.json’,’tAlb10_3.json')
+# il dizionario-albero in  ’tAlb10_3.json’ deve essere uguale dizionario-albero in 'risAlb10_3.json'
+
+>>> dizionario_gradi_antenati('Alb10.json’,2,’tAlb10_4.json')
+# il dizionario-albero in  ’tAlb10_4.json’ deve essere uguale dizionario-albero in 'risAlb10_4.json'
+
+
+
+>>> genera_sottoalbero(‘Alb100.json’,’ultras’,’tAlb100_1.json’)
+# il dizionario-albero in  ’tAlb100_1.json’ deve essere uguale dizionario-albero in 'risAlb100_1.json' 
+
+>>> cancella_sottoalbero('Alb100.json','ultras',’tAlb100_2.json’)
+# il dizionario-albero in  ’tAlb100_2.json’ deve essere uguale dizionario-albero in 'risAlb100_2.json'
+
+>>> dizionario_livelli('Alb100.json’,’tAlb100_3.json')
+# il dizionario-albero in  ’tAlb100_3.json’ deve essere uguale dizionario-albero in 'risAlb100_3.json'
+
+>>> dizionario_gradi_antenati('Alb100.json',2,'risAlb100_4.json')
+# il dizionario-albero in  ’tAlb100_4.json’ deve essere uguale dizionario-albero in 'risAlb100_4.json'
+
+
+
+
+>>> genera_sottoalbero(‘Alb20000.json’,’felici’,’tAlb20000_1.json’)
+# il dizionario-albero in  ’tAlb20000_1.json’ deve essere uguale dizionario-albero in 'risAlb20000_1.json' 
+
+>>> cancella_sottoalbero('Alb20000.json','felici',’tAlb20000_2.json’)
+# il dizionario-albero in  ’tAlb20000_2.json’ deve essere uguale dizionario-albero in 'risAlb20000_2.json'
+
+>>> dizionario_livelli('Alb20000.json’,’tAlb20000_3.json')
+# il dizionario-albero in  ’tAlb20000_3.json’ deve essere uguale dizionario-albero in 'risAlb20000_3.json'
+
+>>> dizionario_gradi_antenati('Alb20000.json',2,'risAlb20000_4.json')
+# il dizionario-albero in  ’tAlb20000_4.json’ deve essere uguale dizionario-albero in 'risAlb20000_4.json'
+
+
+>>> genera_sottoalbero(‘Alb50000.json’,’anglofobo’,’tAlb50000_1.json’)
+# il dizionario-albero in  ’tAlb50000_1.json’ deve essere uguale dizionario-albero in 'risAlb50000_1.json' 
+
+>>> cancella_sottoalbero('Alb50000.json','zarzuela',’tAlb50000_2.json’)
+# il dizionario-albero in  ’tAlb50000_2.json’ deve essere uguale dizionario-albero in 'risAlb50000_2.json'
+
+>>> dizionario_livelli('Alb50000.json’,’tAlb50000_3.json')
+# il dizionario-albero in  ’tAlb50000_3.json’ deve essere uguale dizionario-albero in 'risAlb50000_3.json'
+
+>>> dizionario_gradi_antenati('Alb50000.json',2,'risAlb50000_4.json')
+# il dizionario-albero in  ’tAlb50000_4.json’ deve essere uguale dizionario-albero in 'risAlb50000_4.json'

@@ -1,0 +1,22 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+>>> import program
+
+>>> program.conv(18)
+'diciotto'
+
+>>> program.conv(128)
+‘centoventotto’
+
+>>> program.conv(508)
+'cinquecentootto'
+
+>>> program.conv(1501)
+'millecinquecentouno'
+
+>>> program.conv(17081)
+'diciassettemilaottantuno'
+
+>>> program.conv(981008818)
+'novecentottantunomilioniottomilaottocentodiciotto'

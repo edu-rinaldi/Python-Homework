@@ -1,0 +1,49 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+rosso = (255,   0,   0)
+blu   = (  0,   0, 255)
+verde = (  0, 255,   0)
+nero  = (  0,   0,   0)
+bianco= (255, 255, 255)
+giallo= (255, 255,   0)
+cyan  = (  0, 255, 255)
+magenta= (255,  0, 255)
+
+>>> import program03
+
+>>> program03.ricolora('I1.png',[(10,10,rosso,blu)],'test1.png')
+[(2304, 196)]
+#l'immagine 'test1.png' deve essere uguale all'immagine 'risTest1.png'
+
+>>> program03.ricolora('I1.png',[(10,10,rosso,blu),(90,10,nero,verde)],'test2.png')
+[(2304, 196), (2304, 196)]
+#l'immagine 'test2.png' deve essere uguale all'immagine 'risTest2.png'
+
+>>> program03.ricolora('I1.png',[(10,10,bianco,blu),(90,10,verde,rosso)],'test3.png')
+[(2304, 196), (2304, 196)]
+#l'immagine 'test3.png' deve essere uguale all'immagine 'risTest3.png'
+                                                                               
+>>>lista=[(i*30+1,j*30+1,bianco,verde) for i in range(10) for j in range (10)if not (i+j)%2]
+>>> program03.ricolora('I2.png',lista,'test4.png')
+# restituisce la lista [(784, 116)]*50
+#l'immagine 'test4.png' deve essere uguale all'immagine 'risTest4.png'
+
+>>>lista0=[(i*30+1,j*30+1,nero, verde) for i in range(10) for j in range (10)if not (i+j)%2]
+>>>lista1=[(i*30+1,j*30+1,rosso,bianco) for i in range(10) for j in range (10)if  (i+j)%2]
+>>> program03.ricolora('I2.png',lista0+lista1,'test5.png')
+# restituisce la lista [(784, 116)]*100
+#l'immagine 'test5.png' deve essere uguale all'immagine 'risTest5.png'
+
+
+>>> lista=[(25,25,(0,0,0),(0,5*i,5*i)) for i in range(1,25)]
+>>> program03.ricolora('I1.png',lista,'test6.png')
+# restituisce la lista [ ((50-i*2)**2,(50-i*2+1)*4) for i in range(1,25) ]
+#l'immagine 'test6.png' deve essere uguale all'immagine 'risTest6.png'
+
+>>> lista=[(0,0,(0,0,0),(0,5*i,5*i)) for i in range(1,25)]
+>>> program03.ricolora('I1.png',lista,'test6.png')
+# restituisce la lista [(2304, 196)] + [(0, 196)] * 23 
+#l'immagine 'test7.png' deve essere uguale all'immagine 'risTest7.png'
+
+

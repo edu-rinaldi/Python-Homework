@@ -1,0 +1,51 @@
+
+# esempi di  risultati testati del grader
+
+
+from program02 import *
+
+>>> g1=[['x', 'o', 'o'], ['x', 'x', 'o'], ['', '', '']]
+>>> g2=[['x', 'o', 'o'], ['x', 'x', 'o'], ['o', 'x', 'o']]
+>>> g3=[['x', 'o', 'o'], ['x', 'x', 'o'], ['o', '', 'x']]
+>>> g4=[['o', 'x', 'x'], ['x', 'o', 'o'], ['o', 'o', 'x']]
+
+>>> lista=[g1, g2, g3, g4]
+>>> lista1=[gen_tree(x) for x in lista]
+
+>>> [y.tipo() for y in lista1]
+['?', 'o', 'x', '-']
+
+>>> [y.esiti() for y in lista1]
+[(0, 2, 3), (0, 1, 0), (0, 0, 1), (1, 0, 0)]
+
+>>> [lista1[0].vittorie_livello('o',h) for h in range(4)]
+[0, 1, 0, 1]
+>>> [lista1[0].vittorie_livello('x',h) for h in range(4)]
+[0, 0, 3, 0]
+
+>>> [lista1[0].strategia_vincente('x'), lista1[0].strategia_vincente('o')]
+[False, True]
+
+>>> g0=[['', '', ''], ['', '', ''], ['', '', '']]
+>>> rad=gen_tree(g0)
+>>> rad.esiti()
+(46080, 131184, 77904)
+
+>>> [rad.vittorie_livello('o',h) for h in range(10)]
+[0, 0, 0, 0, 0, 1440, 0, 47952, 0, 81792]
+
+>>> [rad.vittorie_livello('x',h) for h in range(10)]
+[0, 0, 0, 0, 0, 0, 5328, 0, 72576, 0] 
+
+>>> g5=[['', 'x', ''], ['', 'o', ''], ['', '', '']]
+>>> g6=[['', 'o', ''], ['', 'x', ''], ['', '', '']]
+>>> g7=[['', 'x', 'o'], ['', '', ''], ['', '', '']]
+>>> g8=[['', 'o', 'x'], ['', '', ''], ['', '', '']]
+>>> listab=[g5, g6, g7, g8]
+>>> lista1= [gen_tree(x) for x in listab]
+>>> [y.esiti() for y in lista1]
+[(576, 2082, 612), (720, 1438, 1652), (864, 2048, 756), (864, 1798, 1276)]
+
+>>> [y.strategia_vincente('o') for y in lista1]
+>>> [True, False, True, False]
+

@@ -1,0 +1,1 @@
+La classe Colore è costruita controllando che gli input siano giusti.

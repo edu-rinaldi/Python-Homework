@@ -1,0 +1,210 @@
+       <POST>         24
+
+
+ciao scusami, ho seguito il vostro discorso ho provato anche io cosi. ed è ok!
+però il problema mi viene all'ultima lettera della parola che mi da lo stesso lo spazio. come faccio a mettere che quando arriva all'ultima lettera poi non devo più mettere lo spazio?
+
+
+
+<POST> 5
+
+
+aggiungi queste righe al posto del print: 
+
+lun = len(stringa)-k
+print "'"+stringa[0:lun]+"'"
+
+
+
+<POST> 1
+
+
+Grazie, anche a me era sfuggito l'ultimo spazio.
+ 
+
+ <POST>   15
+
+
+Ciao ragazzi, premetto che ieri non ho potuto seguire la lezione e quindi non so se il prof lo ha spiegato.
+Quando creo la funzione space, come faccio ad assegnare alla variabile k il valore "spazio"?
+
+
+
+<POST>   11
+
+
+ti cicli la stringa passata in ingresso e gli concateni,ad ogni lettera, ' ' * k, dove k sono il numero di spazi che deve inserire
+
+
+
+<POST> 19
+
+
+grazie, mi mancava solo lo spazio !!
+
+
+
+<POST> 12
+
+
+ho scritto questo:
+
+def space(s, k):
+     ...:     for i in s:
+     ...:         print i + "__ " *k
+
+
+
+ e in output mi da questo:
+
+space('ciao', 2)
+c__ __ 
+i__ __ 
+a__ __ 
+o__ __ 
+ 
+ho messo gli underscore al posto degli spazi per farti vedere meglio cosa mi da
+
+
+
+
+<POST> 13
+
+
+assegna  i + "__ " *k ad una variabile(che dichiari fuori dal for) che poi stamperai dopo il for
+
+
+
+<POST> 16
+
+
+Se il print lo metto dopo il for, al for che istruzione do?
+
+
+
+<POST>   14
+
+
+gli fai fare solo l'istruzione che separa con spazio i caratteri: stringaFinale = stringaFinale+ (i + '  ' * numero_spazi)
+
+
+
+<POST>      18
+
+
+dichiarando la variabile prima del ciclo mi da come errore che faccio riferimento alla variabile 'i' prima dell'assegnamento
+
+
+
+                     <POST> 20
+
+
+questo è il mio: 
+
+def space(s, k):
+stringa = ''
+for n in s:
+stringa = stringa + (n + ' ' * k)
+print stringa
+
+
+space('ciao',2)
+
+
+
+<POST>17
+
+
+grazie mille mi hai chiarito molti dubbi, solo una cosa non ho capito, perché bisogna dichiarare la variabile stringa con all'interno una stringa vuota
+
+
+
+<POST> 21
+
+
+python a quanto pare non considera variabili solamente dichiarate, ma le vuole inizializzate.....cosi se è una stringa la inizializzi a vuoto, se è un intero lo inizializzi con un numero, se è float con un numero in virgola mobile
+
+
+
+<POST> 22
+
+
+perfetto grazie ancora
+
+
+
+<POST> 23
+
+
+niente...figurati
+
+
+
+
+<POST> 9
+
+
+Ciao ragazzi,
+a me oltre al risultato da NONE, intuisco di star sbagliando qualcosa, ma non trovo la soluzione.
+il mio codice
+
+def space(s,k):
+for i in s:
+t=i+'_'*k
+print t,
+
+
+
+<POST> 2
+
+Traduci messaggio in italiano  
+
+forse manda un return?
+
+
+
+<POST> 3 
+
+Non copiare il codice sul forum!
+
+
+
+<POST> 6
+
+
+grazie, ma ancora non ci arrivo: se sostituisco il print col return mi fermo al primo ciclo quindi poi mi stampa solo C__, se lascio il print rimane il NONE.
+
+
+
+<POST> 4
+
+
+Attenta all'indentazione del return. Deve essere messo fuori dal for, altrimenti la funzione si blocca al primo ciclo.
+
+
+
+<POST> 8
+
+
+grazie!!!
+
+
+
+<POST> 10
+
+
+Io per ovviare al problema dell'ultimo spazio ho semplicemente fatto in modo che la funzione mi ritornasse la lista dal valore 0 al valore len(funzione)-k con questo codice
+
+def space(s,k):
+newstr=''
+for i in range(len(s)):
+newstr = newstr + s[i] + ' '*k
+return newstr[0:len(newstr)-k]
+
+
+
+
+<POST> 7
+
+
+Per favore non postare codice completo.

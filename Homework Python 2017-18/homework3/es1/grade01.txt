@@ -1,0 +1,22 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+>>> import program01
+
+>>> program01.quadrato('Ist0.png',(255,255,255))
+(1, (188, 118))
+
+>>> program01.quadrato('Ist1.png',(255,0,0))
+(20, (30, 20))
+
+>>> program01.quadrato('Ist2.png',(255,0,0))
+(30, (60, 50))
+
+>>> program01.quadrato('Ist3.png',(255,0,0))
+(60, (100, 50))                                                                               
+
+>>> program01.quadrato('Ist4.png',(0,0,255))
+(201, (54, 240))
+
+
+

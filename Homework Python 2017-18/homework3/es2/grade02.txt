@@ -1,0 +1,22 @@
+
+# esempi di chiamate a funzione e risultati testati del grader
+
+>>> import program02
+
+>>> program02.cammino('I1.png','t1.png')
+'000112223'
+#la scacchiera 't1.png' deve essere uguale a quella dell'immagine 'risT1.png'
+
+>>> program02.cammino('I2.png','t2.png')
+'0001211111111111122333333333333'
+#la scacchiera 't2.png' deve essere uguale a quella dell'immagine 'risT2.png'
+
+
+>>> program02.cammino('I3.png','t3.png')
+'000121111111111110000000003000333333332222222222211111011123'
+#la scacchiera 't3.png' deve essere uguale a quella dell'immagine 'risT3.png'
+
+>>> program02.cammino('I4.png','t4.png')
+'00000000000000111111111111112222222222222233333333333330000000000000111111111111222222222222333333333330000000000011111111112222222222333333333000000000111111112222222233333330000000111111222222333330000011112222333000112230'
+#la scacchiera 't4.png' deve essere uguale a quella dell'immagine 'risT4.png'                                                                            
+
